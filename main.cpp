@@ -419,8 +419,8 @@ public:
 	{
 		git_dir = normalize_path(append_slash(dir));
 		
-		if (!git_dir.endswith("/.git/"))
-			FATAL("GitBSLR: The git directory path must end with .git, it can't be %s\n", git_dir.c_str());
+		//if (!git_dir.endswith("/.git/"))
+		//	FATAL("GitBSLR: The git directory path must end with .git, it can't be %s\n", git_dir.c_str());
 		
 		if (!work_tree)
 		{
